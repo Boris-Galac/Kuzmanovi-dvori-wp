@@ -1,0 +1,20 @@
+.blog-feed {
+  isolation: isolate;
+}
+.blog-feed::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/wp-content/themes/myTheme/src/assets/images/blog-feed-overlay.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+@media (min-width: 1024px) {
+  .blog-feed__inner-wrapper {
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  font-family: "Cormorant Garamond", serif;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+h2 {
+}
+.h2-heading {
+  color: var(--dark);
+  font-size: clamp(3rem, 7vw, 4rem);
+  margin-bottom: 2rem;
+}
+.h3-heading {
+  position: relative;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.h4-heading {
+  font-size: 2rem;
+}
+.hero__headline {
+  font-size: clamp(2.5rem, 7vw, 10rem);
+  line-height: 100%;
+}
+.hero__subheadline {
+  text-transform: none;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragraph {
+  line-height: 160%;
+  font-weight: 500;
+  font-size: 20px;
+}
+.dark-text {
+  color: var(--dark);
+}
+.ponuda__heading {
+  text-align: center;
+}
+.ponuda__heading {
+  position: relative;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+.ponuda-h3-heading {
+  margin-bottom: 6rem;
+}
+.ponuda-paragraph {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 20px;
+}
+.info-row-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.more-info-paragraph {
+  font-size: 18px;
+}
+.more-info-h4-heading {
+  margin-bottom: 2rem;
+}
+.blog-feed-heading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.blog-card-h3-heading {
+  color: var(--dark);
+}
+.date {
+  font-size: 22px;
+  font-weight: 700;
+}
+.blog-card__paragraph {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.read-more-link {
+  font-size: 20px;
+  font-weight: 500;
+}
+.recenzije-h2-heading {
+  position: relative;
+  text-align: center;
+}
+.contact-h2-heading {
+  position: relative;
+  line-height: 79%;
+  isolation: isolate;
+  color: var(--white);
+}
+.contact-h2-heading::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: var(--white);
+  width: 7rem;
+  display: block;
+  z-index: -1;
+  bottom: -15px;
+  left: 0;
+}
+.contact .paragraph {
+  line-height: normal;
+}
+.paragraph--serif-font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.gallery-h1-heading {
+  position: relative;
+  font-size: 4rem;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.gallery-h2-heading {
+  position: relative;
+  color: var(--white);
+  line-height: 100%;
+  margin-bottom: 5rem;
+}
+.blogs-h2-heading {
+  position: relative;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.single-blog-card-h3-heading {
+  margin-block: 1.5rem;
+  text-align: center;
+  font-size: clamp(2rem, 7vw, 3rem);
+  color: var(--dark);
+}
+.potpis {
+  font-weight: 800;
+  font-size: 1.6rem;
+  margin-block: 1rem;
+}
+.single-post-paragraph {
+  font-size: 20px;
+  line-height: 160%;
+}
+@media (min-width: 1200px) {
+  .hero__subheadline-upper {
+    font-size: 32px;
+  }
+  .ponuda__heading {
+    margin-bottom: 10rem;
+  }
+}
