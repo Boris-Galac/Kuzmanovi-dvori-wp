@@ -1,6 +1,13 @@
 <button class="back-to-top-btn" data-visible="false" aria-label="scroll to top of the page">
     <img src="/wp-content/themes/myTheme/src/assets/icons/top-icon.svg" alt="scroll to top icon" />
 </button>
+<div class="cookies-modal" aria-labelledby="modalTitle" role="dialog" aria-modal="true" aria-expanded="false">
+    <p class="cookies-modal__paragraph">Web koristi kolačiće kako bi se osiguralo bolje korisničko iskustvo i
+        funkcionalnost stranica. Više informacija o kolačićima možete potražiti <a href="#">ovdje</a>.</p>
+    <button class="cookies-modal__btn">
+        Prihvaćam
+    </button>
+</div>
 <div class="overlay" data-active="false" aria-expanded="false">
     <?php get_search_form() ?>
 </div>
