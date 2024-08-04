@@ -5,18 +5,18 @@
                 <h2 class="h2-heading contact-h2-heading">Kontaktirajte nas</h2>
                 <div class="contact__content-wrapper">
                     <p class="paragraph">
-                        Provjerite raspolozivot, rezervirajte termin i ostavirite
-                        kominikaciju s nama.
+                        Provjerite raspoloživot, rezervirajte termin i ostvarite
+                        komunikaciju s nama.
                     </p>
                     <div class="contact__call-action-wrapper">
                         <div class="contact__call-action">
-                            <a href="#" class="call-btn"><img
+                            <a href="tel:+385915378947" class="call-btn"><img
                                     src="/wp-content/themes/myTheme/src/assets/icons/phone-contact-icon.svg"
                                     alt="phone icon" /></a>
                             <span>Stjepan: +385915378947</span>
                         </div>
                         <div class="contact__call-action">
-                            <a href="#" class="call-btn"><img
+                            <a href="tel:+385989655260" class="call-btn"><img
                                     src="/wp-content/themes/myTheme/src/assets/icons/phone-contact-icon.svg"
                                     alt="phone icon" /></a>
                             <span>Marija: +385989655260</span>
@@ -25,14 +25,14 @@
                 </div>
                 <div class="contact__content-wrapper">
                     <p class="paragraph">
-                        Ukoliko želite kontakt mailom, možete to uciniti klikom na
+                        Ukoliko želite kontakt mailom, možete to učiniti klikom na
                         gumb ispod.
                     </p>
                     <div class="contact__call-action">
                         <a href="#" class="call-btn call-btn--gmail"><img
                                 src="/wp-content/themes/myTheme/src/assets/icons/gmail-contact-icon.svg"
                                 alt="gmail icon" /></a>
-                        <span>kuzmanovi.dvori@gmail.com</span>
+                        <span>kuzmanovidvori@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                 <h2 class="h2-heading contact-h2-heading">Gdje se nalazimo</h2>
                 <div class="contact__location-wrapper">
                     <p class="paragraph">
-                        Da biste lakse dosli do nas, posluzite se google kartama.
+                        Da biste lakše došli do nas, poslužite se google kartama.
                     </p>
                     <span class="contact__address"><img class="icon"
                             src="/wp-content/themes/myTheme/src/assets/icons/location-icon.svg" alt="location" />

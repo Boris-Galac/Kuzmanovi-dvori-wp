@@ -16,32 +16,37 @@
     <nav class="footer__logo">
         <ul class="footer__list">
             <li class="footer__item">
-                <a href="#" class="footer__link">O dvorima</a>
+                <a href="#dvori" class="footer__link">O dvorima</a>
             </li>
             <li class="footer__item">
-                <a href="#" class="footer__link">Kuzmanovi dvori</a>
+                <a href="#ponuda" class="footer__link">Kuzmanovi dvori</a>
             </li>
             <li class="footer__item">
-                <a href="#" class="footer__link">Galerija</a>
+                <a href="<?php echo site_url('gallery') ?>" class="footer__link">Galerija</a>
             </li>
             <li class="footer__item">
-                <a href="#" class="footer__link">Blog</a>
+                <a href="#blog" class="footer__link">Blog</a>
             </li>
             <li class="footer__item">
-                <a href="#" class="footer__link">Recenzije</a>
+                <a href="#recenzije" class="footer__link">Recenzije</a>
             </li>
             <li class="footer__item">
-                <a href="#" class="footer__link">Kontakt</a>
+                <a href="#kontakt" class="footer__link">Kontakt</a>
             </li>
         </ul>
     </nav>
     <div class="footer__socials">
-        <a href="#"><img src="/wp-content/themes/myTheme/src/assets/icons/fb-icon.svg" alt="facebook icon"></a>
-        <a href="#"><img src="/wp-content/themes/myTheme/src/assets/icons/gmail-icon.svg" alt="gmail icon"></a>
-        <a href="#"><img src="/wp-content/themes/myTheme/src/assets/icons/instagram-icon.svg" alt="instagram icon"></a>
+        <a href="https://www.facebook.com/profile.php?id=100090977297914" target="_blank"><img
+                src="/wp-content/themes/myTheme/src/assets/icons/fb-icon.svg" alt="facebook icon"></a>
+        <a href="mailto:kuzmanovidvori@gmail.com" target="_blank"><img
+                src="/wp-content/themes/myTheme/src/assets/icons/gmail-icon.svg" alt="gmail icon"></a>
+        <a href="https://www.instagram.com/kuzmanovi_dvori/" target="_blank"><img
+                src="/wp-content/themes/myTheme/src/assets/icons/instagram-icon.svg" alt="instagram icon"></a>
     </div>
     <div class="copyright">
         <p>Copyright © 2024 - All Rights Reserved.</p>
+        <p>Website kreirao i uredio: <a class="galac-design" target="_blank"
+                href="https://www.galac-design.hr/">GALAC-DESIGN</a> </p>
     </div>
 </footer>
 <!-- Swiper JS -->

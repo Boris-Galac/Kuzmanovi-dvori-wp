@@ -5,3 +5,10 @@
 .main--blogs {
   padding-top: 3rem;
 }
+.no-blogs-found {
+  font-size: clamp(1.3rem, 6vw, 2rem);
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+  color: gray;
+}

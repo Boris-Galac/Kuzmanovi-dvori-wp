@@ -30,7 +30,7 @@
                     Doživite raskoš tradicije u vili "Kuzmanovi dvori" – gdje prošlost
                     susreće suvremenost.
                 </p>
-                <a href="#ponuda" class="hero__cta" role="button">istraži kuzmanovi dvori
+                <a href="#ponuda" class="hero__cta" role="button">istraži kuzmanove dvore
                     <div class="cta-slide"></div>
 
                     <img src="/wp-content/themes/myTheme/src/assets/icons/cta-arrow-right.svg" aria-hidden="true" />
@@ -255,15 +255,22 @@
             );
             $latest_post_query = new WP_Query($args);
 
-            if ($latest_post_query->have_posts()) : 
-                while ($latest_post_query->have_posts()) : $latest_post_query->the_post();
-                    get_template_part('template-parts/content', 'blog-card');
-            endwhile;
-        endif;
+  
+
+        if($latest_post_query->have_posts()){
+            while($latest_post_query->have_posts()){
+                $latest_post_query->the_post();
+
+                get_template_part('template-parts/content', 'blog-card');
+            ?> <a href="<?php echo site_url('blog') ?>" class="see-more-blogs-btn">Istraži cijeli blog <img
+                    src="/wp-content/themes/myTheme/src/assets/icons/arrow-right-icon.svg" alt="arrow right"></a>
+            <?php  }
+        }else{ ?>
+            <p class="no-blogs-found">Nema postavljenih blogova još...</p>
+            <?php  }
             
         ?>
-            <a href="<?php echo site_url('blog') ?>" class="see-more-blogs-btn">Istraži cijeli blog <img
-                    src="/wp-content/themes/myTheme/src/assets/icons/arrow-right-icon.svg" alt="arrow right"></a>
+
         </div>
     </section>
     <!-- recenzije section -->

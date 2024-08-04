@@ -18,6 +18,7 @@
                 <?php if(is_front_page()){ ?>
                 <li class="nav__item"><a href="#dvori" class="nav__link">O dvorima</a></li>
                 <li class="nav__item"><a href="#ponuda" class="nav__link">Ponuda</a></li>
+                <li class="nav__item"><a href="<?php echo site_url('gallery') ?>" class="nav__link">Galerija</a></li>
                 <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
                 <li class="nav__item"><a href="#recenzije" class="nav__link">Recenzije</a></li>
                 <li class="nav__item"><a href="#kontakt" class="nav__link">Kontakt</a></li>
