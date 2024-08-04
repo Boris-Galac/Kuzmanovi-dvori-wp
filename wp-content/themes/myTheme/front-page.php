@@ -30,7 +30,7 @@
                     Doživite raskoš tradicije u vili "Kuzmanovi dvori" – gdje prošlost
                     susreće suvremenost.
                 </p>
-                <a href="#ponuda" class="hero__cta" role="button">istraži kuzmanove dvore
+                <a href="#ponuda" class="hero__cta" role="button">istražite kuzmanove dvore
                     <div class="cta-slide"></div>
 
                     <img src="/wp-content/themes/myTheme/src/assets/icons/cta-arrow-right.svg" aria-hidden="true" />
